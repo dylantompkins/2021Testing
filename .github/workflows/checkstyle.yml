@@ -24,5 +24,5 @@ jobs:
         uses: nikitasavinov/checkstyle-action@0.3.1
         with:
           reporter: 'github-check'
-          level: 'error'
+          level: 'warning'
           github_token: ${{ secrets.GITHUB_TOKEN }}
